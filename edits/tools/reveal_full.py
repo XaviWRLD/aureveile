@@ -12,7 +12,7 @@ ih = int(np.argmin(abs(bt - HIT_SONG)))
 T = lambda k: float(bt[ih + k] - bt[ih]) + HIT_OUT          # output time of k-th beat after the hit
 SS = HIT_SONG - HIT_OUT
 # clips after the reveal: (input, src_in, src_out, beats)
-clips = [(1, 2.875, 3.958, 4), (1, 13.458, 15.1, 4), (2, 12.458, 14.042, 4), (2, 14.042, 15.12, 6)]
+clips = [(5, 1.0, 4.98, 10), (1, 2.875, 3.958, 4), (2, 12.458, 14.042, 4), (2, 14.042, 15.12, 6)]
 REV_END_K = 2
 fc = []
 # reveal segment: genjutsu 0 -> T(2) (hold last frame)
@@ -21,7 +21,7 @@ fc.append(f"[0:v]scale=1080:1920:flags=lanczos,setsar=1,fps=30,tpad=stop_mode=cl
 k = REV_END_K; cuts = [rev_len]; labels = ["[r]"]
 for i, (inp, a, b, nb) in enumerate(clips):
     d = T(k + nb) - T(k); sp = min((b - a) / d, 3)
-    fc.append(f"[{inp}:v]trim={a}:{b},setpts=(PTS-STARTPTS)/{sp:.5f},fps=30,scale=1097:1920:flags=lanczos,crop=1080:1920,setsar=1,"
+    fc.append(f"[{inp}:v]trim={a}:{b},setpts=(PTS-STARTPTS)/{sp:.5f},fps=30,scale=1080:1920:force_original_aspect_ratio=increase:flags=lanczos,crop=1080:1920,setsar=1,"
               f"tpad=stop_mode=clone:stop_duration=2,trim=0:{d:.4f},setpts=PTS-STARTPTS[c{i}]")
     labels.append(f"[c{i}]"); k += nb; cuts.append(T(k))
 total = cuts[-1]
@@ -34,14 +34,15 @@ fc.append("[zv][fl]overlay=0:0:shortest=1[fv]")
 def txt(s, fs, col, y, t0, t1, pop=True):
     yy = f"{y}+16*max(0\\,1-(t-{t0:.3f})/0.12)" if pop else str(y)
     return (f"drawtext=fontfile={FONT}:text='{s}':fontsize={fs}:fontcolor={col}:borderw=8:bordercolor=black@0.95:shadowx=0:shadowy=5:"
-            f"shadowcolor=black@0.5:x=(w-text_w)/2:y={yy}:alpha='min(1\\,(t-{t0:.3f})/0.08)':enable='between(t\\,{t0:.3f}\\,{t1:.3f})'")
+            f"shadowcolor=black@0.5:x=(w-text_w)/2:y={yy}:alpha='min(1\\,(t-{t0:.3f})/0.08)':enable='between(t\\,{t0:.3f}\\,{t1-0.08:.3f})'")
 dt = [txt("COLD HANDS ALL WINTER?", 68, "white", 150, 0, HIT_OUT, False), txt("RUN, DON’T WALK.", 92, Y, 250, 0, HIT_OUT, False)]
 for n, t0 in (("3", 0.40), ("2", 1.50), ("1", 2.60)):
     t1 = t0 + 0.9
     dt.append(f"drawtext=fontfile={FONT}:text='{n}':fontsize='300+140*max(0\\,1-(t-{t0})/0.18)':fontcolor=white:borderw=12:bordercolor=black@0.9:"
               f"x=(w-text_w)/2:y=560-text_h/2:alpha='min(1\\,(t-{t0})/0.06)*min(1\\,({t1}-t)/0.15)':enable='between(t\\,{t0}\\,{t1})'")
 c = cuts
-dt += [txt("ONE CLICK.", 96, Y, 1380, c[0], c[1]), txt("3 HEAT LEVELS", 96, Y, 1380, c[1], c[2]),
+dt += [txt("JUST ARRIVED.", 96, Y, 1380, c[0], c[1]),
+       txt("ONE CLICK.", 96, Y, 1380, c[1], c[2]),
        txt("warm hands", 76, "white", 1330, c[2], c[3]), txt("ALL WINTER", 100, Y, 1425, c[2], c[3]),
        txt("Comment WARM", 104, Y, 1330, c[3], total + 1), txt("for the link", 76, "white", 1450, c[3], total + 1)]
 fc.append("[fv]" + ",".join(dt) + ",format=yuv420p[v]")
@@ -49,7 +50,7 @@ L = total
 fc.append(f"[3:a]atrim=0:{L+0.3:.3f},asetpts=PTS-STARTPTS,afade=t=out:st={L-0.6:.3f}:d=0.9[mus];"
           f"[4:a]atrim=0:{HIT_OUT:.3f},asetpts=PTS-STARTPTS,highpass=f=90,volume=0.8,afade=t=out:st={HIT_OUT-0.3:.3f}:d=0.3,apad[cnt];"
           f"[mus][cnt]amix=inputs=2:duration=first:normalize=0,volume=GAINdB,alimiter=limit=0.84:attack=2:release=60:level=false[a]")
-cmd = ["ffmpeg", "-v", "error", "-y", "-i", GEN, "-i", V3, "-i", V2, "-ss", f"{SS:.3f}", "-i", SONG, "-i", "/tmp/claude-0/-home-user-aureveile/36f44319-1f84-532a-991c-8803b39245c5/scratchpad/sep/countdown_vocals.flac", "-filter_complex", ";".join(fc).replace("GAIN", GAIN),
+cmd = ["ffmpeg", "-v", "error", "-y", "-i", GEN, "-i", V3, "-i", V2, "-ss", f"{SS:.3f}", "-i", SONG, "-i", "/tmp/claude-0/-home-user-aureveile/36f44319-1f84-532a-991c-8803b39245c5/scratchpad/sep/countdown_vocals.flac", "-i", "/tmp/claude-0/-home-user-aureveile/36f44319-1f84-532a-991c-8803b39245c5/scratchpad/hf/gen/unbox.mp4", "-filter_complex", ";".join(fc).replace("GAIN", GAIN),
        "-map", "[v]", "-map", "[a]", "-c:v", "libx264", "-preset", "slow", "-crf", "17", "-r", "30", "-movflags", "+faststart",
        "-c:a", "aac", "-b:a", "256k", "-t", f"{L+0.3:.3f}", OUT]
 r = subprocess.run(cmd, capture_output=True, text=True)
