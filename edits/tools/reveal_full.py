@@ -46,10 +46,10 @@ dt += [txt("ONE CLICK.", 96, Y, 1380, c[0], c[1]), txt("3 HEAT LEVELS", 96, Y, 1
        txt("Comment WARM", 104, Y, 1330, c[3], total + 1), txt("for the link", 76, "white", 1450, c[3], total + 1)]
 fc.append("[fv]" + ",".join(dt) + ",format=yuv420p[v]")
 L = total
-fc.append(f"[3:a]atrim=0:{L+0.3:.3f},asetpts=PTS-STARTPTS,volume='if(lt(t\\,{HIT_OUT-0.05})\\,0.3\\,1)':eval=frame,afade=t=out:st={L-0.6:.3f}:d=0.9[mus];"
-          f"[4:a]atrim=0:{HIT_OUT:.3f},asetpts=PTS-STARTPTS,highpass=f=90,volume=0.5,afade=t=out:st={HIT_OUT-0.3:.3f}:d=0.3,apad[cnt];"
+fc.append(f"[3:a]atrim=0:{L+0.3:.3f},asetpts=PTS-STARTPTS,afade=t=out:st={L-0.6:.3f}:d=0.9[mus];"
+          f"[4:a]atrim=0:{HIT_OUT:.3f},asetpts=PTS-STARTPTS,highpass=f=90,volume=0.8,afade=t=out:st={HIT_OUT-0.3:.3f}:d=0.3,apad[cnt];"
           f"[mus][cnt]amix=inputs=2:duration=first:normalize=0,volume=GAINdB,alimiter=limit=0.84:attack=2:release=60:level=false[a]")
-cmd = ["ffmpeg", "-v", "error", "-y", "-i", GEN, "-i", V3, "-i", V2, "-ss", f"{SS:.3f}", "-i", SONG, "-i", "/home/user/aureveile/edits/genjutsu/reveal_no_text_WITH_AUDIO.mp4", "-filter_complex", ";".join(fc).replace("GAIN", GAIN),
+cmd = ["ffmpeg", "-v", "error", "-y", "-i", GEN, "-i", V3, "-i", V2, "-ss", f"{SS:.3f}", "-i", SONG, "-i", "/tmp/claude-0/-home-user-aureveile/36f44319-1f84-532a-991c-8803b39245c5/scratchpad/sep/countdown_vocals.flac", "-filter_complex", ";".join(fc).replace("GAIN", GAIN),
        "-map", "[v]", "-map", "[a]", "-c:v", "libx264", "-preset", "slow", "-crf", "17", "-r", "30", "-movflags", "+faststart",
        "-c:a", "aac", "-b:a", "256k", "-t", f"{L+0.3:.3f}", OUT]
 r = subprocess.run(cmd, capture_output=True, text=True)
