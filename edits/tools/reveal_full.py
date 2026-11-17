@@ -1,4 +1,5 @@
-import json, subprocess, numpy as np
+import json, subprocess, sys, numpy as np
+GAIN = sys.argv[1] if len(sys.argv) > 1 else '0'
 U = "/root/.claude/uploads/36f44319-1f84-532a-991c-8803b39245c5/"
 GEN = U + "59599c1b-hf_20261117_200618_a3125ef2-897a-42f7-a124-9fb3a2aebd1a.mp4"
 V3 = U + "3727053c-VID-20261112-WA0002.mp4"; V2 = U + "bed81630-VID-20261112-WA0001.mp4"
@@ -34,7 +35,7 @@ def txt(s, fs, col, y, t0, t1, pop=True):
     yy = f"{y}+16*max(0\\,1-(t-{t0:.3f})/0.12)" if pop else str(y)
     return (f"drawtext=fontfile={FONT}:text='{s}':fontsize={fs}:fontcolor={col}:borderw=8:bordercolor=black@0.95:shadowx=0:shadowy=5:"
             f"shadowcolor=black@0.5:x=(w-text_w)/2:y={yy}:alpha='min(1\\,(t-{t0:.3f})/0.08)':enable='between(t\\,{t0:.3f}\\,{t1:.3f})'")
-dt = [txt("ALWAYS-COLD PEOPLE", 78, "white", 150, 0, HIT_OUT, False), txt("DON’T WALK. THEY RUN.", 78, Y, 245, 0, HIT_OUT, False)]
+dt = [txt("COLD HANDS ALL WINTER?", 68, "white", 150, 0, HIT_OUT, False), txt("RUN, DON’T WALK.", 92, Y, 250, 0, HIT_OUT, False)]
 for n, t0 in (("3", 0.40), ("2", 1.50), ("1", 2.60)):
     t1 = t0 + 0.9
     dt.append(f"drawtext=fontfile={FONT}:text='{n}':fontsize='300+140*max(0\\,1-(t-{t0})/0.18)':fontcolor=white:borderw=12:bordercolor=black@0.9:"
@@ -45,8 +46,10 @@ dt += [txt("ONE CLICK.", 96, Y, 1380, c[0], c[1]), txt("3 HEAT LEVELS", 96, Y, 1
        txt("Comment WARM", 104, Y, 1330, c[3], total + 1), txt("for the link", 76, "white", 1450, c[3], total + 1)]
 fc.append("[fv]" + ",".join(dt) + ",format=yuv420p[v]")
 L = total
-fc.append(f"[3:a]atrim=0:{L+0.3:.3f},asetpts=PTS-STARTPTS,afade=t=out:st={L-0.6:.3f}:d=0.9,loudnorm=I=-14:TP=-1.5,alimiter=limit=0.80:level=false[a]")
-cmd = ["ffmpeg", "-v", "error", "-y", "-i", GEN, "-i", V3, "-i", V2, "-ss", f"{SS:.3f}", "-i", SONG, "-filter_complex", ";".join(fc),
+fc.append(f"[3:a]atrim=0:{L+0.3:.3f},asetpts=PTS-STARTPTS,volume='if(lt(t\\,{HIT_OUT-0.05})\\,0.3\\,1)':eval=frame,afade=t=out:st={L-0.6:.3f}:d=0.9[mus];"
+          f"[4:a]atrim=0:{HIT_OUT:.3f},asetpts=PTS-STARTPTS,highpass=f=90,volume=0.5,afade=t=out:st={HIT_OUT-0.3:.3f}:d=0.3,apad[cnt];"
+          f"[mus][cnt]amix=inputs=2:duration=first:normalize=0,volume=GAINdB,alimiter=limit=0.84:attack=2:release=60:level=false[a]")
+cmd = ["ffmpeg", "-v", "error", "-y", "-i", GEN, "-i", V3, "-i", V2, "-ss", f"{SS:.3f}", "-i", SONG, "-i", "/home/user/aureveile/edits/genjutsu/reveal_no_text_WITH_AUDIO.mp4", "-filter_complex", ";".join(fc).replace("GAIN", GAIN),
        "-map", "[v]", "-map", "[a]", "-c:v", "libx264", "-preset", "slow", "-crf", "17", "-r", "30", "-movflags", "+faststart",
        "-c:a", "aac", "-b:a", "256k", "-t", f"{L+0.3:.3f}", OUT]
 r = subprocess.run(cmd, capture_output=True, text=True)
