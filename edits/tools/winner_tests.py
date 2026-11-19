@@ -38,8 +38,7 @@ def build(name, segs, offset, hook_draw, hook_cover):
     dt += [txt("for the person who’s", 64, "white", 1335, B(4), B(10)), txt("ALWAYS COLD", 82, Y, 1427, B(4), B(10)),
            txt("3 HEAT LEVELS", 82, Y, 1335, B(10), B(14)),
            txt("no more", 64, "white", 1335, B(14), B(22)), txt("FROZEN FINGERS", 82, Y, 1427, B(14), B(22)),
-           txt("Comment WARM", 104, Y, 1330, B(22), total + 1), txt("for the link", 76, "white", 1450, B(22), total + 1),
-           txt("ORDER BY DEC 4 FOR CHRISTMAS", 66, "white", 300, B(22), total + 1)]
+           txt("Comment WARM", 104, Y, 1330, B(22), total + 1), txt("for the link", 76, "white", 1450, B(22), total + 1)]
     fc.append("[fv]" + ",".join(dt) + ",format=yuv420p[v]")
     L = total + 0.6
     def run(gain):
