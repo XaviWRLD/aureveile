@@ -12,7 +12,7 @@
 ## Brand
 - Store: myheatedgloves.shop (Shopify). Logo: "my" bold sans + "HeatedGloves" italic serif. Colors: black, cream, burgundy accent (#7a1e2c). Tagline: "Cold days. Warm hands."
 - Product: black heated gloves, grey chevron, red button with 3-bar LED, buckle wrist strap, zipped cuff; runs on 3 × AA per glove (not rechargeable).
-- Prices (user-set): $54.95 for 1 pair, $89.95 for 2 pairs.
+- Prices (user-set, updated 20 Nov 2026): $44.95 for 1 pair, $79.95 for 2 pairs. Ad creatives currently show no price (desire-led).
 
 ## Content
 - Facebook Reels perform best (474k-view winner). Facebook captions: story-style, specific ICP, "Tag them 👇 Link in comments", max 4 Facebook-relevant hashtags (no TikTok tags like #TikTokMadeMeBuyIt).
