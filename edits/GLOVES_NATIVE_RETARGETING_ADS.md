@@ -30,9 +30,9 @@ Heated gloves exist, and "warm gloves" claims are everywhere. So the claim alone
 ## Audience setup (retargeting)
 | Ad set | Audience | Window | Best creatives |
 |---|---|---|---|
-| 1 Warm | Watched ≥50% of a Reel + Page/IG engagers | 30 days | Video D, C · Img 07, 04, 08, 09 |
-| 2 Hot | Website visitors (excl. purchasers) | 14 days | Video A, B · Img 01, 02, 03, 05 |
-| 3 Hottest | Add to cart / Initiated checkout (excl. purchasers) | 7 days | Video B · Img 02, 10, 06 |
+| 1 Warm | Watched ≥50% of a Reel + Page/IG engagers | 30 days | Video D, C · Img 01, 03, 06, 09 |
+| 2 Hot | Website visitors (excl. purchasers) | 14 days | Video A, B · Img 02, 07, 08, 11 |
+| 3 Hottest | Add to cart / Initiated checkout (excl. purchasers) | 7 days | Video B · Img 02, 10, 12 |
 
 Exclude purchasers (180 days). Advantage+ placements (Feeds, Reels, Stories). Objective Sales → Purchase. CTA button **Shop Now**. ~€5–10/day per ad set, 3–4 creatives each; kill CTR < 0.8% after ~1,500 impressions.
 **Description field (all ads):** `Free shipping · 3 heat levels · one button`
@@ -114,82 +114,86 @@ On-screen: One click before you leave → 3 heat levels · AA batteries → Cold
 
 ---
 
-### IMG 01: Notes app "Things you can stop doing this winter"
-> Hands in your armpits at the bus stop. Sitting on your fingers in a freezing car. Hand warmers that quit after 20 minutes. 😮‍💨
->
-> Cross them all off. One click, pick your heat level, and winter becomes something you walk through, not something you survive.
+## IMAGES v2 (use these, `edits/native_ads/images_v2/`)
+Photoreal 4K scenes of the real gloves (Nano Banana 2.1), native text, no logo, no price. Neutral for US/UK/CA. Claims used: one click, 3 heat levels, AA batteries, touchscreen fingertips, waterproof.
 
-**Headline:** Winter, without the numb fingers
+### 01 Bus stop: "the only one at the bus stop not suffering 😌"
+> Everyone at the bus stop: shoulders up, hands in pockets, counting the minutes 🥶
+> Her: coffee in hand, totally relaxed.
+> The difference? One click before she left the house, and 3 heat levels to choose from.
 
-### IMG 02: Comment reply "Do they actually get warm?"
-> The question we get most, and the honest answer is yes 🔥
->
-> That moment your frozen fingers finally thaw on a freezing morning? Now it happens with one click. Low, medium or high, and nothing to charge.
+**Headline:** Cold outside. Warm hands.
 
-**Headline:** That first warm moment on a cold day
+### 02 Split: "shake, wait, hope… vs. one click 🔥"
+> Hand warmers: shake, wait, warm-ish for 20 minutes, then a cold soggy packet in your pocket.
+> Heated gloves: one click, pick 1 of 3 heat levels, and the warmth is right where your fingers need it. 🔥
 
-### IMG 03: Regular gloves vs. heated gloves
-> Regular gloves only keep in the heat your hands still have. On a really cold day that runs out fast.
->
-> Heated gloves *make* the warmth. One click, 3 levels, AA batteries. Your hands stay warm from the first step to the last.
+**Headline:** Skip the hand warmers
 
-**Headline:** The gloves that warm you up
-
-### IMG 04: "Buy these for the person who's ALWAYS cold"
-> You already know who just came to mind 😂🥶
->
-> Give them a winter where their hands are finally warm. Every cold morning, one click, and they'll think of you.
-
-**Headline:** For the coldest hands you know
-
-### IMG 05: Text post "If your fingers go white and numb…"
-> If the cold turns your fingers white, numb and painful, you know winter isn't just "a bit chilly" 🧤
->
-> Imagine going out on a cold day and your hands simply staying warm. One button, 3 heat levels, gentle warmth where you need it most.
-> *A comfort product, not a medical treatment.*
-
-**Headline:** If your fingers go white in the cold
-
-### IMG 06: "No charging. No cables."
-> The worst feeling: grabbing your heated gear and it's dead 🔋
->
-> Not here. Each glove runs on 3 AA batteries. Pop them in, click, go. Spares in your pocket = warm hands wherever the day takes you.
-
-**Headline:** No charging. Just warm hands.
-
-### IMG 07: "Remember when you actually liked winter?"
-> Snowy walks. Hot coffee on a bench. Staying out a little longer because it's beautiful ❄️
->
-> That's the winter cold hands took from you. Get it back: one click, 3 heat levels, warm hands from the first step.
-
-**Headline:** Remember when you liked winter?
-
-### IMG 08: "6am dog walk. 20°F. Hands: warm."
-> The dog doesn't care how cold it is. It still needs walking at 6am 🐕❄️
->
-> Imagine that walk with warm hands: leash in one hand, coffee in the other, no rushing home. One click before you leave the door.
+### 03 Dog walk: "6am walk. Freezing. Not even mad. 🐕"
+> The dog doesn't care how cold it is. The 6am walk happens anyway ❄️
+> Imagine it with warm hands: leash in one hand, no rushing home, actually enjoying the quiet morning.
 
 **Headline:** Built for 6am dog walks
 
-### IMG 09: Dad gift
-> Dad says he doesn't need anything. Dad also scrapes the windshield every morning with frozen fingers and pretends it's fine 🥶
->
-> Give him the one gift he'll use every single cold day, without admitting how much he loves it.
+### 04 Dad: "Dad finally stopped complaining about the frozen car 😂"
+> Every winter morning: Dad, the ice scraper, frozen fingers and a lot of complaining.
+> This winter: one click, warm hands, waterproof for the frost and slush. Peace in the driveway at last.
 
 **Headline:** Dad will actually use these
 
-### IMG 10: "How they work 👇"
-> Warm hands in three steps 👇
-> ① Press the button ② Pick your heat level ③ Feel the warmth spread through your fingers 🔥
->
-> No cables, no charging, just AA batteries.
+### 05 Gift: "the gift she'll use every single cold day 🎁"
+> Most gifts get used once. This one gets used every cold morning, every school run, every walk ❄️
+> Watch her face when she clicks the button the first time.
 
-**Headline:** Press. Pick a level. Done.
+**Headline:** The gift she'll use every cold day
+
+### 06 Always cold: "me, the always-cold one, finally winning ☕️"
+> If you're the one in a blanket while everyone else is in a T-shirt… this is your winter 😌
+> One click, pick your heat level, and warmth where you feel the cold most: your hands.
+
+**Headline:** For the person who's ALWAYS cold
+
+### 07 Notes app: "Things I'm not doing this winter"
+> ❌ sitting on my hands in the car ❌ hand warmers that die by 9am ❌ rushing home from every walk
+> ✅ one click, warm hands. Winter is a lot nicer when your fingers aren't numb.
+
+**Headline:** Winter, without the numb fingers
+
+### 08 Us vs. them: "Regular gloves keep heat in. These make it. 🔥"
+> On a really cold day, regular gloves only hold the heat your hands still have, and that runs out fast.
+> Heated gloves *make* the warmth: one click, 3 heat levels, AA batteries.
+
+**Headline:** The gloves that warm you up
+
+### 09 Sideline: "Saturday 8am sideline. Hands: fine. ⚽️"
+> Every sports parent knows this cold: frosty bleachers, 90 minutes, no escape 🥶
+> This season, clap, cheer and hold your coffee with warm hands, start to finish.
+
+**Headline:** Warm hands from kick-off to final whistle
+
+### 10 Bag: "no charging. just AAs in my bag 🔋"
+> No cables, no "oh no, they're dead". Each glove runs on 3 AA batteries: swap and keep going.
+> Keys, thermos, gloves. Ready for whatever the day throws at you.
+
+**Headline:** No charging. Just warm hands.
+
+### 11 Touchscreen: "didn't take them off once 📱"
+> Texting, maps, paying, taking photos of the snow, all with your gloves on 📱❄️
+> Touchscreen fingertips + 3 heat levels = no more pulling a glove off and freezing your fingers.
+
+**Headline:** Use your phone. Keep them on.
+
+### 12 Waterproof: "soaked in snow. still warm. ❄️🔥"
+> Snowball fights, building snowmen, shovelling the drive: wet snow everywhere, and your hands are still warm.
+> Waterproof heated gloves with 3 heat levels. Say yes to every snow day.
+
+**Headline:** Soaked in snow. Still warm.
 
 ---
 
 ## Testing order
-1. Hot/Hottest: **Video B, Img 02, Img 07** (remove the last doubt + strongest desire picture).
-2. Warm: **Video D, Img 04, Img 08, Img 09** (identification angles).
+1. Hot/Hottest: **Video B, Img v2-02 (split), Img v2-11 (touchscreen)** (remove the last doubt + strongest desire picture).
+2. Warm: **Video D, Img v2-01 (bus stop), v2-03 (dog walk), v2-05 (gift)** (identification angles).
 3. After 3–4 days, move budget to the 2 best by cost per purchase and rotate in the next untested angle (01, 03, 05, 06, 10, A, C).
 4. Test headlines separately: one desire headline (1–8) vs. one identification headline (9–14) on the same creative.
