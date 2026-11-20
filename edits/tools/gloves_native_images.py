@@ -59,7 +59,7 @@ im = photo("press", focus=0.45); card(im, (90, 150, 990, 420), 40)
 d = ImageDraw.Draw(im); d.text((140, 180), "Most asked question", font=f("Regular", 34), fill=(110, 110, 110))
 text(im, (140, 235), "Do they actually get warm? 🤔", f("Bold", 50), (20, 20, 20))
 d.text((140, 320), "↳ Yes. Press the button, pick 1 of 3 levels.", font=f("Medium", 36), fill=(60, 60, 60))
-native_lines(im, ["1 pair $54.95 · 2 pairs $89.95", "Free shipping 📦"], 1150, 52)
+native_lines(im, ["That first warm moment", "on a freezing morning 🔥"], 1150, 52)
 save(im, 2, "CommentReply_DoTheyGetWarm")
 
 # 03 Regular gloves vs heated gloves
@@ -75,7 +75,7 @@ save(im, 3, "Comparison_RegularVsHeated")
 # 04 Always-cold gift (native text)
 im = photo("snowwalk", focus=0.5); native_lines(im, ["Buy these for the person", "who's ALWAYS cold 🥶"], 150, 64)
 native_lines(im, ["(they'll steal yours otherwise) 😂"], 330, 44)
-native_lines(im, ["2 pairs $89.95 · Free shipping 🎁"], 1180, 52)
+native_lines(im, ["Give them warm hands all winter 🎁"], 1180, 52)
 save(im, 4, "Gift_AlwaysCold")
 
 # 05 Raynaud's / always-cold fingers text-post
@@ -93,12 +93,9 @@ text(im, (W / 2, 1068), "3× AA per glove", f("Black", 58), YEL, anchor="c"); te
 save(im, 6, "Battery_NoCharging")
 
 # 07 Bundle math
-im = photo("pairlit", focus=0.6); native_lines(im, ["Get 2 pairs.", "Keep one, gift one 🎁"], 140, 66)
-card(im, (180, 980, 900, 1260), 40, (255, 255, 255, 248)); d = ImageDraw.Draw(im)
-d.text((W / 2, 1010), "2 pairs", font=f("Bold", 46), fill=(60, 60, 60), anchor="mt")
-d.text((W / 2, 1075), "$89.95", font=f("Black", 96), fill=BURG, anchor="mt")
-d.text((W / 2, 1195), "that's $44.98 a pair · free shipping", font=f("Medium", 34), fill=(70, 70, 70), anchor="mt")
-save(im, 7, "Bundle_2Pairs")
+im = photo("coffee_park", focus=0.5); native_lines(im, ["Remember when you", "actually liked winter? ❄️"], 140, 66)
+native_lines(im, ["Long walks. Hot coffee. Warm hands. 🔥"], 1180, 46)
+save(im, 7, "Desire_LikeWinterAgain")
 
 # 08 Dog walker
 im = photo("snowwalk", focus=0.35); native_lines(im, ["6am dog walk.", "20°F. Hands: warm. 🐕🔥"], 150, 66)
@@ -116,6 +113,6 @@ im = photo("led3", focus=0.45); d = ImageDraw.Draw(im)
 native_lines(im, ["How they work 👇"], 130, 66)
 for y, s in [(560, "① Press the button"), (690, "② Pick 1 of 3 heat levels"), (820, "③ Warm hands 🔥")]:
     card(im, (470, y, 1040, y + 100), 26, (255, 255, 255, 240)); text(im, (500, y + 27), s, f("Bold", 37), (20, 20, 20))
-native_lines(im, ["1 pair $54.95 · 2 pairs $89.95"], 1180, 50)
+native_lines(im, ["Warm hands in one click 🔥"], 1180, 54)
 save(im, 10, "HowItWorks_3Steps")
 print("done")
