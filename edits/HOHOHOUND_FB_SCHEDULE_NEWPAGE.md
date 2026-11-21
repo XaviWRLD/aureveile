@@ -9,16 +9,18 @@ After each Reel goes live (I do this myself): comment „Hier ist er 🎅👉 ho
 
 | # | Date | Time (CET) | File |
 |---|---|---|---|
-| 1 | Sun 22 Nov | 09:00 | HoHoHound_03_Rasse_Voting.mp4 |
-| 2 | Sun 22 Nov | 12:00 | HoHoHound_04_Mann_NICHTS.mp4 |
-| 3 | Sun 22 Nov | 15:30 | HoHoHound_05_POV_Reiter.mp4 |
-| 4 | Sun 22 Nov | 18:30 | HoHoHound_06_Oma_lacht.mp4 |
-| 5 | Sun 22 Nov | 21:00 | HoHoHound_PREMIUM_Schatz.mp4 |
-| 6 | Mon 23 Nov | 09:00 | HoHoHound_08_Zwei_Hunde.mp4 |
-| 7 | Mon 23 Nov | 12:00 | HoHoHound_07_Jeder_Hund.mp4 |
-| 8 | Mon 23 Nov | 15:30 | HoHoHound_02_Hundemama.mp4 |
-| 9 | Mon 23 Nov | 18:30 | HoHoHound_09_Weihnachtsmarkt.mp4 |
-| 10 | Mon 23 Nov | 21:00 | HoHoHound_01_Schatz_Montage.mp4 |
+| 1 | Sat 21 Nov | 21:45 | HoHoHound_03_Rasse_Voting.mp4 |
+| 2 | Sat 21 Nov | 22:30 | HoHoHound_04_Mann_NICHTS.mp4 |
+| 3 | Sun 22 Nov | 09:00 | HoHoHound_05_POV_Reiter.mp4 |
+| 4 | Sun 22 Nov | 12:00 | HoHoHound_06_Oma_lacht.mp4 |
+| 5 | Sun 22 Nov | 15:30 | HoHoHound_PREMIUM_Schatz.mp4 |
+| 6 | Sun 22 Nov | 18:30 | HoHoHound_08_Zwei_Hunde.mp4 |
+| 7 | Sun 22 Nov | 21:00 | HoHoHound_07_Jeder_Hund.mp4 |
+| 8 | Mon 23 Nov | 09:00 | HoHoHound_02_Hundemama.mp4 |
+| 9 | Mon 23 Nov | 12:00 | HoHoHound_09_Weihnachtsmarkt.mp4 |
+| 10 | Mon 23 Nov | 15:30 | HoHoHound_01_Schatz_Montage.mp4 |
+
+Note for tonight: schedule rows 1 and 2 first (Business Suite needs the time to be at least ~10–20 minutes ahead). If 21:45 is already too close, use the earliest time it allows.
 
 ## Descriptions (paste the block for each file)
 
