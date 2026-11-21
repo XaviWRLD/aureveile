@@ -14,6 +14,10 @@ J = {
     hook=["DO NOT show this to a girl", "who gets cold easily… 🥶"], me=(["Me:"], 1), cta=["Comment WARM for the link 👇"]),
  "H2": dict(src=D + "clips/h2_seedance.mp4", song=U + "b488bde6-All_I_Want_for_Christmas_Is_You.mp3", hit=49.76, out=D + "HoHoHound_H2_Quatsch_Weihnachtsmarkt.mp4",
     hook=["„Hör auf, so einen Quatsch", "für den Hund zu kaufen…“"], me=(["Ich:"], 1), cta=["Schreib „SANTA“ für den Link 👇"]),
+    "H3": dict(src=D + "clips/h3_seedance.mp4", song=U + "d4eec954-Mambo_No_5.mp3", hit=6.83, out=D + "HoHoHound_H3_KeineHundemama_Parade.mp4",
+    hook=["Lass das KEINE", "Hundemama sehen… 🐶😂"], me=(["Ich, eine Woche später:"], 1), cta=["Schreib „SANTA“ für den Link 👇"]),
+ "H4": dict(src=D + "clips/h4_seedance.mp4", song=U + "115c4178-Christmas_Baby_Please_Come_Home.mp3", hit=12.12, out=D + "HoHoHound_H4_Opa_Geschenk.mp4",
+    hook=["Das perfekte Weihnachtsgeschenk", "für Opas Hund gibt es nicht…"], me=(["…doch, gibt es 🥹"], 1), cta=["Schreib „SANTA“ für den Link 👇"]),
 }
 
 def cuts_of(f):
