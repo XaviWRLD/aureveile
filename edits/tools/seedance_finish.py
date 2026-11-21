@@ -35,7 +35,7 @@ def build(name, gain):
     total = dur - 0.05
     zs = "+".join(f"0.06*max(0\\,1-(t-{x:.3f})/0.18)*gte(t\\,{x:.3f})" for x in cuts) or "0"
     fc = [f"[0:v]fps=30,{SC},scale=w='trunc(1080*(1+{zs})/2)*2':h='trunc(1920*(1+{zs})/2)*2':eval=frame:flags=bicubic,crop=1080:1920:(iw-1080)/2:(ih-1920)/2,eq=contrast=1.03:saturation=1.04,unsharp=5:5:0.4[v0]"]
-    last = cuts[-1] if cuts else total - 3
+    last = cuts[-1] if len(cuts) > 1 else total - 3
     ov = [(render(c["hook"], TMP + f"{name}_h.png"), 230, 0, c1),
           (render(c["me"][0], TMP + f"{name}_me.png"), 230, c1, last),
           (render(c["cta"], TMP + f"{name}_c.png"), 1460, last + 0.1, total + 1)]
