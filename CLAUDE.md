@@ -8,6 +8,7 @@
 - Prompt for realism: shot on iPhone, natural imperfect lighting, real skin texture with pores and fine lines, candid unposed moment, slight motion/handheld feel, ordinary real-world setting – avoid "perfect", glossy, studio, model-like looks.
 - If I cannot view a generated result myself, say so and ask the user to check it before building on it.
 - Only generate through Higgsfield when the user explicitly asks; otherwise write prompts for the user to run.
+- Video generation (user rule, 22 Nov 2026): NO start-frame images, and NO reference frames taken from earlier videos/Reels (it makes results look like the old ones). Never generate concepts, scenes or looks similar to what was already made – check edits/ (9_reels, premium, scout_reels, native_ads, niche_reels) first.
 
 ## Brand
 - Store: myheatedgloves.shop (Shopify). Logo: "my" bold sans + "HeatedGloves" italic serif. Colors: black, cream, burgundy accent (#7a1e2c). Tagline: "Cold days. Warm hands."
