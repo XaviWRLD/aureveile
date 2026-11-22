@@ -32,6 +32,8 @@ R = {
  "H7": ("All_I_Want_for_Christmas_Is_You", ["Wenn dein Hund auf JEDEM", "Familienfoto drauf sein muss 📸"], BAUM, None),
 }
 
+BOUNDS = {"G7": [0.0, 1.2, 2.7, 4.38]}  # G7 prop changes are not hard cuts
+
 def song_path(key):
     c = [f for f in os.listdir(U) if f.split("-", 1)[1] == key + ".mp3"]
     return U + sorted(c)[0]
@@ -61,7 +63,7 @@ def build(name, gain, a0):
     cta_t = total - 2.6
     ov = [(render(hook, TMP + f"{name}_h.png"), 200, 0, total + 1), (render(cta, TMP + f"{name}_c.png"), 1460, cta_t, total + 1)]
     if seq:
-        bounds = [0.0] + cuts[:len(seq) - 1] + [total + 1]
+        bounds = BOUNDS[name] + [total + 1] if name in BOUNDS else [0.0] + cuts[:len(seq) - 1] + [total + 1]
         if len(bounds) < len(seq) + 1:  # not enough cuts: split evenly
             bounds = list(np.linspace(0, total, len(seq) + 1)); bounds[-1] = total + 1
         for k, s in enumerate(seq):
