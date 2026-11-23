@@ -1,4 +1,4 @@
-# Instructions for Claude in Chrome: schedule 20 HoHoHound Reels, 1 per hour
+# Instructions for Claude in Chrome: schedule 20 HoHoHound Reels, 1 every 1.5 hours (from Mon 23 Nov 11:30)
 
 Use **Meta Business Suite** (business.facebook.com) → **Planner** → **Create Reel**, on the **HoHoHound** Facebook Page.
 The video files are in the unzipped folder from **HoHoHound_Weihnachts_Mamas_20.zip**.
@@ -11,7 +11,7 @@ For each row in the table:
 Rules:
 - Do not publish anything immediately. Everything must be scheduled.
 - Do not put a link in the description.
-- If a slot is less than 20 minutes away or already in the past, move that Reel and every Reel after it one hour later. Keep the order.
+- If a slot is less than 20 minutes away or already in the past, move that Reel and every Reel after it 1.5 hours later. Keep the order.
 - Stop and ask me if a music/copyright warning appears, an upload fails, or Business Suite asks for anything you aren't sure about.
 - When all 20 are scheduled, show me a screenshot of the Planner.
 
@@ -19,26 +19,26 @@ After each Reel goes live (I do this myself): comment „Hier ist er 🎄👉 ho
 
 | # | Date | Time (CET) | File |
 |---|---|---|---|
-| 1 | Mon 23 Nov | 11:00 | HoHoHound_Mama_R03.mp4 |
-| 2 | Mon 23 Nov | 12:00 | HoHoHound_Mama_R14.mp4 |
-| 3 | Mon 23 Nov | 13:00 | HoHoHound_Mama_R02.mp4 |
-| 4 | Mon 23 Nov | 14:00 | HoHoHound_Mama_R15.mp4 |
-| 5 | Mon 23 Nov | 15:00 | HoHoHound_Mama_R07.mp4 |
-| 6 | Mon 23 Nov | 16:00 | HoHoHound_Mama_R05.mp4 |
-| 7 | Mon 23 Nov | 17:00 | HoHoHound_Mama_R16.mp4 |
-| 8 | Mon 23 Nov | 18:00 | HoHoHound_Mama_R09.mp4 |
-| 9 | Mon 23 Nov | 19:00 | HoHoHound_Mama_R04.mp4 |
-| 10 | Mon 23 Nov | 20:00 | HoHoHound_Mama_R20.mp4 |
-| 11 | Mon 23 Nov | 21:00 | HoHoHound_Mama_R12.mp4 |
-| 12 | Tue 24 Nov | 10:00 | HoHoHound_Mama_R01.mp4 |
-| 13 | Tue 24 Nov | 11:00 | HoHoHound_Mama_R06.mp4 |
-| 14 | Tue 24 Nov | 12:00 | HoHoHound_Mama_R17.mp4 |
-| 15 | Tue 24 Nov | 13:00 | HoHoHound_Mama_R13.mp4 |
-| 16 | Tue 24 Nov | 14:00 | HoHoHound_Mama_R10.mp4 |
-| 17 | Tue 24 Nov | 15:00 | HoHoHound_Mama_R19.mp4 |
-| 18 | Tue 24 Nov | 16:00 | HoHoHound_Mama_R08.mp4 |
-| 19 | Tue 24 Nov | 17:00 | HoHoHound_Mama_R11.mp4 |
-| 20 | Tue 24 Nov | 18:00 | HoHoHound_Mama_R18.mp4 |
+| 1 | Mon 23 Nov | 11:30 | HoHoHound_Mama_R03.mp4 |
+| 2 | Mon 23 Nov | 13:00 | HoHoHound_Mama_R14.mp4 |
+| 3 | Mon 23 Nov | 14:30 | HoHoHound_Mama_R02.mp4 |
+| 4 | Mon 23 Nov | 16:00 | HoHoHound_Mama_R15.mp4 |
+| 5 | Mon 23 Nov | 17:30 | HoHoHound_Mama_R07.mp4 |
+| 6 | Mon 23 Nov | 19:00 | HoHoHound_Mama_R05.mp4 |
+| 7 | Mon 23 Nov | 20:30 | HoHoHound_Mama_R16.mp4 |
+| 8 | Mon 23 Nov | 22:00 | HoHoHound_Mama_R09.mp4 |
+| 9 | Mon 23 Nov | 23:30 | HoHoHound_Mama_R04.mp4 |
+| 10 | Tue 24 Nov | 01:00 | HoHoHound_Mama_R20.mp4 |
+| 11 | Tue 24 Nov | 02:30 | HoHoHound_Mama_R12.mp4 |
+| 12 | Tue 24 Nov | 04:00 | HoHoHound_Mama_R01.mp4 |
+| 13 | Tue 24 Nov | 05:30 | HoHoHound_Mama_R06.mp4 |
+| 14 | Tue 24 Nov | 07:00 | HoHoHound_Mama_R17.mp4 |
+| 15 | Tue 24 Nov | 08:30 | HoHoHound_Mama_R13.mp4 |
+| 16 | Tue 24 Nov | 10:00 | HoHoHound_Mama_R10.mp4 |
+| 17 | Tue 24 Nov | 11:30 | HoHoHound_Mama_R19.mp4 |
+| 18 | Tue 24 Nov | 13:00 | HoHoHound_Mama_R08.mp4 |
+| 19 | Tue 24 Nov | 14:30 | HoHoHound_Mama_R11.mp4 |
+| 20 | Tue 24 Nov | 16:00 | HoHoHound_Mama_R18.mp4 |
 
 ## Descriptions (paste the block for each file)
 
