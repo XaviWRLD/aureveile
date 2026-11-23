@@ -1,21 +1,29 @@
-# Instructions for Claude in Chrome: schedule 20 myHeatedGloves Reels, one every hour (from Mon 23 Nov 12:30)
+# Instructions for Claude in Chrome: schedule 20 myHeatedGloves Reels on Facebook AND Instagram, one every hour (from Mon 23 Nov 12:30)
 
-Use **Meta Business Suite** (business.facebook.com) → **Planner** → **Create Reel**, on the **myHeatedGloves** Facebook Page.
+Use **Meta Business Suite** (business.facebook.com) → **Planner** → **Create Reel**, on the **myHeatedGloves** Facebook Page **and** its connected **Instagram** account.
 The video files are in the unzipped folder from **Gloves_Viral_20.zip**.
 
 For each row in the table:
-1. Upload the file.
-2. Paste its description from below exactly as written, with the emoji and line breaks.
-3. Choose **Schedule** and set the date and time in **Malta time (CET)**. The UK and US East columns are only for reference.
+1. In "Post to", tick **both** the myHeatedGloves Facebook Page **and** the myHeatedGloves Instagram account.
+2. Upload the file.
+3. Paste its description from below exactly as written, with the emoji and line breaks.
+4. Turn on **"Customise post for Facebook and Instagram"** (the per-platform text option). In the **Instagram** text only, change "Link in comments." to **"Link in bio 🔗"**. Leave the Facebook text unchanged.
+5. Make sure "Share to Feed" / the Instagram feed option is on, so the Reel shows on the profile grid too.
+6. Choose **Schedule** and set the date and time in **Malta time (CET)**. The UK and US East columns are only for reference. The same time applies to both platforms.
 
 Rules:
 - Do not publish anything immediately. Everything must be scheduled.
 - Do not put a link in the description.
 - If a slot is less than 20 minutes away or already in the past, move that Reel and every Reel after it one hour later. Keep the order.
 - Stop and ask me if a music/copyright warning appears, an upload fails, or Business Suite asks for anything you aren't sure about.
-- When all 20 are scheduled, show me a screenshot of the Planner.
+- If the Instagram account is not listed in "Post to" (not connected), stop and tell me before scheduling anything.
+- If Instagram shows a music or copyright warning for a Reel, schedule it to Facebook only, and note which Reel it was.
+- When all 20 are scheduled, show me a screenshot of the Planner with both the Facebook and Instagram icons visible.
 
-After each Reel goes live (I do this myself): comment **"Here they are 👉 myheatedgloves.shop"** as the Page and pin it. Reply to every WARM comment with the link, and reply to the debate comments with humour.
+After each Reel goes live (I do this myself):
+- **Facebook:** comment **"Here they are 👉 myheatedgloves.shop"** as the Page and pin it. Reply to every WARM comment with the link.
+- **Instagram:** reply to every WARM comment and send the link by DM. Links in Instagram comments and captions aren't clickable.
+- On both platforms, reply to the debate comments with humour.
 
 | # | Date (Malta) | Malta (CET) | UK | US East | File |
 |---|---|---|---|---|---|
