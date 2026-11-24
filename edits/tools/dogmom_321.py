@@ -13,13 +13,15 @@ WORDS = [(0.45, 0.98), (1.93, 2.66), (3.50, 4.22)]          # drei / zwei / eins
 DROP = 56.0
 TMP = "/tmp/claude-0/-home-user-aureveile/36f44319-1f84-532a-991c-8803b39245c5/scratchpad/dm/"
 SC = "scale=1080:1920:force_original_aspect_ratio=increase:flags=lanczos,crop=1080:1920,setsar=1"
+LOOK = ("eq=contrast=0.98:saturation=0.93:gamma=1.02,noise=alls=7:allf=t,unsharp=3:3:0.2" if os.environ.get("REAL") else
+        "eq=contrast=1.02:saturation=1.03,unsharp=5:5:0.3")   # REAL=1: phone-like finish (grain, softer colour)
 FONT = ImageFont.truetype("/usr/share/fonts/opentype/inter/Inter-Bold.otf", 46)
 
 def build(src, ts, reveal, out, hook, gain):
     dur = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", src], capture_output=True, text=True).stdout) - 0.05
     png = render(hook.split("|"), TMP + "hook_org.png", font=FONT, stroke=3)
     a0 = max(0.0, DROP - reveal)
-    fc = [f"[0:v]fps=30,{SC},eq=contrast=1.02:saturation=1.03,unsharp=5:5:0.3[v0];[v0][1:v]overlay=0:300[v1];[v1]trim=0:{dur:.3f},format=yuv420p[v]"]
+    fc = [f"[0:v]fps=30,{SC},{LOOK}[v0];[v0][1:v]overlay=0:300[v1];[v1]trim=0:{dur:.3f},format=yuv420p[v]"]
     # music: quiet under the countdown, full from the drop
     fc.append(f"[2:a]atrim=0:{dur:.3f},asetpts=PTS-STARTPTS,volume='if(lt(t\\,{reveal - 0.08:.2f})\\,0.28\\,1)':eval=frame,afade=t=out:st={dur - 0.6:.3f}:d=0.6[m]")
     for k, ((w0, w1), t) in enumerate(zip(WORDS, ts)):
