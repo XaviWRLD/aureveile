@@ -10,6 +10,9 @@
 - Only generate through Higgsfield when the user explicitly asks; otherwise write prompts for the user to run.
 - Video generation (user rule, 22 Nov 2026): NO start-frame images, and NO reference frames taken from earlier videos/Reels (it makes results look like the old ones). Never generate concepts, scenes or looks similar to what was already made – check edits/ (9_reels, premium, scout_reels, native_ads, niche_reels) first.
 
+## Results log (what NOT to repeat)
+- 24 Nov 2026: 20 HoHoHound "Weihnachts-Mama" Reels + 20 gloves "engagement-hook" Reels, all re-cut from clips already posted in earlier Reels, posted hourly incl. overnight, commercial songs baked in, vote/tag/comment-bait hooks → all flopped (best 340 views/24 h). Don't recycle already-posted footage into new Reels, don't post more than 1–2 Reels/day per page, avoid engagement-bait hooks ("vote 1 or 2", "tag someone", "wrong answers only"), prefer in-app licensed sounds.
+
 ## Brand
 - Store: myheatedgloves.shop (Shopify). Logo: "my" bold sans + "HeatedGloves" italic serif. Colors: black, cream, burgundy accent (#7a1e2c). Tagline: "Cold days. Warm hands."
 - Product: black heated gloves, grey chevron, red button with 3-bar LED, buckle wrist strap, zipped cuff; runs on 3 × AA per glove (not rechargeable).
