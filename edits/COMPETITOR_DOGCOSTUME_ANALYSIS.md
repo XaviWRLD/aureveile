@@ -29,3 +29,14 @@ Caption on all five: `Comment "DOG" if you want one! 🎁❤️ #dogmom #christm
 ## What this means for us (vs. our 40 flops)
 - Their videos: one hook, one reveal on the music hit, slow shots, crowd proof, a duo ending, fresh footage every time.
 - Ours: recycled footage, beat-cut montages with many cuts, text that changed several times, engagement-bait questions, hourly posting.
+
+## Reel 7 (≈70K views): "Don't let a SMALL DOG Mom see this… 😍🐶"
+13.0 s, 5 shots, cuts at 2.6 / 4.6 / 7.5 / 9.6 s. Sound A ("All I Want for Christmas Is You", the same audio as Reels 1, 2 and 4).
+| Time | Shot | Job |
+|---|---|---|
+| 0–2.6 s | Phone POV: a hand holds the costume box up in front of a woman bathing her little dog in the tub | Relatable dog-mom moment, with the product in frame from frame 0 |
+| 2.6–4.6 s | Box held over the bath water, then a close-up of the packaging | Product proof, a "what's in it?" moment |
+| 4.6–7.5 s | **On the music hit:** both dogs already dressed, a hand straightening one costume | The reveal, as a before → after jump |
+| 7.5–9.6 s | One dog walks at the camera down the hallway | Cute close-up |
+| 9.6–13 s | Both dogs walk at the camera at a Christmas market while people film | Social proof plus a duo (sells two) |
+New elements: no blanket. Instead it's an "interrupted chore" opening (bath time), and the reveal is a jump cut to the dogs already dressed, landing on the beat. There are 2 dogs the whole way through, so the 2-pack is sold quietly.
