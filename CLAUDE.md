@@ -12,6 +12,7 @@
 
 ## Results log (what NOT to repeat)
 - 24 Nov 2026: 20 HoHoHound "Weihnachts-Mama" Reels + 20 gloves "engagement-hook" Reels, all re-cut from clips already posted in earlier Reels, posted hourly incl. overnight, commercial songs baked in, vote/tag/comment-bait hooks → all flopped (best 340 views/24 h). Don't recycle already-posted footage into new Reels, don't post more than 1–2 Reels/day per page, avoid engagement-bait hooks ("vote 1 or 2", "tag someone", "wrong answers only"), prefer in-app licensed sounds.
+- 25 Nov 2026: 4 fresh-footage English 3-2-1 gloves Reels (competitor format) got 40 / 3 / 2 / 2 views in ~10 h on the myHeatedGloves page. Fresh content still ~0 reach → the page itself looks throttled after ~45 Reels in 3 days. Check Page status / recommendation eligibility before posting more there.
 
 ## Brand
 - Store: myheatedgloves.shop (Shopify). Logo: "my" bold sans + "HeatedGloves" italic serif. Colors: black, cream, burgundy accent (#7a1e2c). Tagline: "Cold days. Warm hands."
