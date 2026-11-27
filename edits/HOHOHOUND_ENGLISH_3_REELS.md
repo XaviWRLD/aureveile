@@ -7,7 +7,7 @@ Post on an English page or account, not the German HoHoHound pages. You need an 
 |---|---|---|
 | HoHoHound_EN_1_DogMom_Duo.mp4 | Don't let a dog mom see this… 😍🎄 | Two lumps, paws teased, tree + Santa duo reveal, kids, grandma, tree-dog gag |
 | HoHoHound_EN_2_Prototype.mp4 | We designed a costume that turns your dog into a Christmas tree 🎄 | Cloth lift → lopsided first prototype → star flops → final product → packing |
-| HoHoHound_EN_3_Target.mp4 | Why did nobody tell me this is on Target.com 😭🎄 | Porch box 3-2-1 → strut → party "where did you get that?" → "Now on Target.com 🎯" |
+| HoHoHound_EN_3_WhereDidYouGetThat.mp4 | Why did nobody tell me this existed sooner 😭🎄 | Porch box 3-2-1 → strut → party "where did you GET that?!" → dogs asleep under the tree |
 
 ## Captions
 
@@ -23,9 +23,10 @@ We spent months turning a silly idea into this 🎄
 Comment "TREE" and I'll send you the link 🎁
 #smallbusiness #dogmom #christmasdog #doggifts
 
-### 3 · Target.com
-Okay but why didn't anyone tell me this is on Target.com 😭🎄🎅
-Comment "TARGET" and I'll send you the link 🎁
+### 3 · Where did you get that?
+Why did nobody tell me this existed sooner 😭🎄🎅
+Every single guest asked where we got them 😂
+Comment "TREE" or "SANTA" and I'll send you the link 🎁
 #dogmom #christmasdog #doggifts #holidaygifts
 
-Note: no #targetfinds (that tag is for in-store finds), and no Target logo in the footage. "Now on Target.com 🎯" is our own text overlay.
+Note: HoHoHound is NOT sold at Target. Never mention Target in videos, captions or hashtags.
