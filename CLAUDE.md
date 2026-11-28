@@ -20,7 +20,7 @@
 - Prices (user-set, updated 20 Nov 2026): $44.95 for 1 pair, $79.95 for 2 pairs. Ad creatives currently show no price (desire-led).
 
 ## HoHoHound (hohohound.shop)
-- 27 Nov 2026: store switched to English + USD (theme "HoHoHound – English" live; old German theme kept unpublished). Prices: Santa Piggyback $39.95, Christmas Tree $29.95 (compare $59.95). Bundle display: save $15.95 on 2; checkout auto-discount 15% off 2+.
+- 27 Nov 2026: store switched to English + USD (theme "HoHoHound – English" live; old German theme kept unpublished). Prices (28 Nov): Santa Piggyback $49.95 (compare $69.95), Christmas Tree $29.95 (compare $59.95). Bundle: 15% off 2+ on page and at checkout (matching). Header "Christmas Sale" bar counts down to LA midnight daily.
 - The old myHeatedGloves FB page is now "HoHoHound English". HoHoHound is NOT sold at Target – never claim it.
 
 ## Content
